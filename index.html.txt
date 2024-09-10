@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Laycon Bright Agency</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #00adb5;
+        }
+
+        nav {
+            margin: 20px;
+            text-align: center;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #00adb5;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        #about {
+            text-align: center;
+        }
+
+        #about h2, #projects h2, #contact h2 {
+            color: #00adb5;
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        #projects .project {
+            background-color: #282828;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        #contact form input, #contact form textarea {
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #contact form input[type="submit"] {
+            background-color: #00adb5;
+            color: #ffffff;
+            cursor: pointer;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            padding: 10px;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Laycon Bright Agency</h1>
+    </header>
+
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to Laycon Bright Agency. I am a Shopify expert and e-commerce consultant with a passion for helping businesses succeed online. With thousands of projects completed, I bring deep insights into how to optimize your online store and grow your business.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Project Page</h2>
+
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of the first project. This could be a Shopify store, an e-commerce consultation, or another service.</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of the second project. Highlighting more of your expertise and achievements in the industry.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Laycon Bright Agency. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
